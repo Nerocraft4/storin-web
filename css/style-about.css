@@ -28,12 +28,55 @@ a{
 body > h1{
   font-size: 3.5em;
   text-align: center;
+  margin-top: 10px;
 }
 h2{
   text-align: center;
   font-size: 1.5em;
+  margin-bottom: 7px;
 }
 
 .about-elem{
-  padding: 15px;
+  padding: 11px 15px;
+}
+
+#team{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.member{
+  width: 46%;
+  padding: 2px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.r{
+  flex-direction: row;
+}
+
+.l{
+  flex-direction: row-reverse;
+}
+
+.l > .right{
+  text-align: right;
+}
+
+.member > .left > img{
+  width: 13vw;
+  margin: 5px 3px 0px 3px;
+}
+
+.member > .right > h5{
+  font-size: 0.7em;
+}
+
+.member > .right > p{
+  font-size: 0.61em;
 }
