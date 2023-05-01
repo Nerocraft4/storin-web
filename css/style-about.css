@@ -40,10 +40,6 @@ h2{
   padding: 11px 15px;
 }
 
-h4{
-  background-color: gray;
-}
-
 #team{
   margin-top: 15px;
   display: flex;
@@ -75,6 +71,7 @@ h4{
 .member > .left > img{
   width: 13vw;
   margin: 0px 3px 0px 3px;
+  border-radius: 50%;
 }
 
 .member > .right > h5{
