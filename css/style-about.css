@@ -52,6 +52,7 @@ h2{
 .member{
   width: 46%;
   padding: 2px;
+  background-color: gray;
   display: flex;
   margin-bottom: 10px;
 }
