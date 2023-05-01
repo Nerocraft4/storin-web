@@ -4,7 +4,7 @@ function validate(){
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
   if ( username == "user" && password == "pass"){
-    window.location = "main.html"; // Redirecting to other page.
+    window.location = "home.html"; // Redirecting to other page.
     return false;
   }
   else{

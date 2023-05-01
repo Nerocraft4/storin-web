@@ -25,36 +25,15 @@ a{
   text-decoration: none;
 }
 
-#main-div{
-  padding: 5px;
-  margin-top: 10px;
-}
-
-#main-div > h1{
-  margin: 10px 0px 10px 0px;
-}
-
-#main-div > h1{
-  font-size: 3em;
+body > h1{
+  font-size: 3.5em;
   text-align: center;
 }
-
-#options{
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.option{
-  width: 42%;
-  padding: 10px;
-}
-
-.option > img{
-  width: 100%;
-}
-
-.option > p{
+h2{
   text-align: center;
+  font-size: 1.5em;
+}
+
+.about-elem{
+  padding: 15px;
 }
