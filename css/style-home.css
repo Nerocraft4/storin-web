@@ -20,6 +20,10 @@
   padding: 0px 10px 0px 10px;
 }
 
+.top-bar-elem > a > i{
+  font-size: 2.5em;
+}
+
 a{
   color: inherit;
   text-decoration: none;
@@ -32,9 +36,6 @@ a{
 
 #main-div > h1{
   margin: 10px 0px 10px 0px;
-}
-
-#main-div > h1{
   font-size: 3em;
   text-align: center;
 }
@@ -46,10 +47,14 @@ a{
   flex-wrap: wrap;
 }
 
-.option{
-  width: 41%;
-  padding: 10px;
+#options > a{
+  width: 40%;
+  padding: 12px;
 }
+
+/* .option{
+  width: 100%;
+} */
 
 .option > img{
   width: 100%;

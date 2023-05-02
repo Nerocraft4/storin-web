@@ -20,6 +20,10 @@
   padding: 0px 10px 0px 10px;
 }
 
+.top-bar-elem > a > i{
+  font-size: 2.5em;
+}
+
 a{
   color: inherit;
   text-decoration: none;
