@@ -37,7 +37,16 @@ input[type=button]{
   margin: 10px 0px;
   border: none;
   cursor: pointer;
+  transition: background-color 0.5s;
 }
 input[type=button]:hover{
   opacity: 0.7;
+}
+
+/* background: linear-gradient(00deg, rgba(84,221,35,1) 0%, rgba(15,215,176,1) 62%); */
+body{
+  padding: 0px;
+  margin: 0px;
+  height: calc(100vh - 45px);
+  background: linear-gradient(150deg, rgba(84,221,35,.6) 0%, rgba(15,215,176,.6) 72%);
 }
