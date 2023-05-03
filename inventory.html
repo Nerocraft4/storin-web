@@ -4,7 +4,6 @@
     <title>Storin | Inventory</title>
     <link rel="stylesheet" href="css/style-inventory.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--<script src="js/login.js"></script>-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="assets/logostorin.ico">
   </head>
@@ -22,53 +21,71 @@
       <div id="filterbar">
         <div id="left">
           <p>Search:</p>
-          <textarea cols=20 rows=1></textarea>
+          <textarea id="searcharea" cols=20 rows=1></textarea>
         </div>
         <div id="right">
           <p>Sort by:  </p>
-          <i class="fa fa-sort-amount-asc"></i>
+          <select name="selector" id="selector" onchange="sort(this.value);">
+            <option value="Name ASC">Name ASC</option>
+            <option value="Name DESC">Name DESC</option>
+            <option value="Units ASC">Units ASC</option>
+            <option value="Units DESC">Units DESC</option>
+          </select>
         </div>
       </div>
-      <div class="invelem">
-        <img src="assets/placeholder.jpg">
-        <div class="content">
-          <h4 id="item-title">Sherlock Holmes</h4>
-          <p>id: 1598470234</p>
-          <p>5 units</p>
+      <div id="invlist">
+        <div class="invelem">
+          <img src="assets/placeholder.jpg">
+          <div class="content">
+            <h4 id="item-title">Sherlock Holmes</h4>
+            <p>id: 1598470234</p>
+            <div id="ucont">
+              <p id="units">2</p> <p>units</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="invelem">
-        <img src="assets/placeholder.jpg">
-        <div class="content">
-          <h4 id="item-title">Romeo and Juliet</h4>
-          <p>id: 1598470996</p>
-          <p>4 units</p>
+        <div class="invelem">
+          <img src="assets/placeholder.jpg">
+          <div class="content">
+            <h4 id="item-title">Romeo and Juliet</h4>
+            <p>id: 1598470996</p>
+            <div id="ucont">
+              <p id="units">6</p> <p>units</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="invelem">
-        <img src="assets/placeholder.jpg">
-        <div class="content">
-          <h4 id="item-title">Hyperion</h4>
-          <p>id: 5986334166</p>
-          <p>2 units</p>
+        <div class="invelem">
+          <img src="assets/placeholder.jpg">
+          <div class="content">
+            <h4 id="item-title">Hyperion</h4>
+            <p>id: 5986334166</p>
+            <div id="ucont">
+              <p id="units">19</p> <p>units</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="invelem">
-        <img src="assets/placeholder.jpg">
-        <div class="content">
-          <h4 id="item-title">Leviathan Wakes</h4>
-          <p>id: 9061984347</p>
-          <p>9 units</p>
+        <div class="invelem">
+          <img src="assets/placeholder.jpg">
+          <div class="content">
+            <h4 id="item-title">Leviathan Wakes</h4>
+            <p>id: 9061984347</p>
+            <div id="ucont">
+              <p id="units">9</p> <p>units</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="invelem">
-        <img src="assets/placeholder.jpg">
-        <div class="content">
-          <h4 id="item-title">History of the 1st International</h4>
-          <p>id: 4234315984</p>
-          <p>3 units</p>
+        <div class="invelem">
+          <img src="assets/placeholder.jpg">
+          <div class="content">
+            <h4 id="item-title">History of the 1st International</h4>
+            <p>id: 4234315984</p>
+            <div id="ucont">
+              <p id="units">3</p> <p>units</p>
+            </div>
+          </div>
         </div>
-      </div>
+      </div
     </div>
+    <script src="js/sortinv.js"></script>
   </body>
 </html>

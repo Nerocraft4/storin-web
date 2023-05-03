@@ -50,13 +50,13 @@ a{
 }
 
 #filterbar > #left{
-  width: 60%;
+  width: 50%;
   /* background-color: red; */
   display: flex;
   flex-direction: row;
 }
 #filterbar > #right{
-  width: 25%;
+  width: auto;
   /* background-color: blue; */
   display: flex;
   flex-direction: row;
@@ -79,12 +79,12 @@ a{
 
 #right > p{
   font-size: 1.2em;
+  margin-right: 5px;
 }
 
 #right > i {
   margin-left: 5px;
 }
-
 
 .invelem{
   display: flex;
@@ -100,4 +100,14 @@ a{
 
 .invelem > .content{
   padding: 10px;
+}
+
+.invelem > .content > #ucont{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+.invelem > .content > #ucont > #units{
+  margin-right: 5px;
 }
